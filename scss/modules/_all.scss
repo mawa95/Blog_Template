@@ -2,9 +2,11 @@ $main-color: #585858;
 $color-accent: #a3b5a7;
 $color-lightGray: #ddd;
 $bg-color: #f4f4f4;
+$karla: Karla, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+$lora:  Lora, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
 html{
   font-size: 10px;
-  font-family: Karla, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;;
+  font-family: $karla;
   color: $main-color;
   background: $bg-color;
 }
@@ -22,7 +24,7 @@ html{
     padding-bottom: 150px;
     background: white;
     margin: 0;
-    font-size: 10rem;
+    font-size: 20rem;
     text-align: center;
     font-family: Dancing Script, cursive;
     font-weight: bold;

@@ -3,14 +3,16 @@
   text-align: center;
   font-size: 3rem;
   background: white;
-
+  color: $main-color;
   ul{
     margin: 0;
     li{
       list-style: none;
       text-align: left;
-      font-size: 2rem;
-
+      font-size: 4rem;
+    &:hover{
+      color: $main-color;
+    }
     }
     a{
       text-decoration: none;
@@ -25,9 +27,9 @@
   color: $main-color;
   border: none;
   margin: 0;
-  padding: 0;
+  padding-top: 30px;
   width: auto;
   overflow: visible;
   background: transparent;
-  font-size: 2.5rem;
+  font-size: 7rem;
 }

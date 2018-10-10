@@ -15,7 +15,7 @@ export default class Header extends React.Component{
                     </div>
                     <div className='header_search'>
                         <form>
-                            <input type="text" placeholder="Search for..."></input>
+                            <input type="text" placeholder="SEARCH AND HIT ENTER..."></input>
                             <i className="fas fa-search"></i>
                         </form>
                     </div>

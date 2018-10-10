@@ -12,6 +12,9 @@ import RecentPosts from './RecentPosts.jsx'
 import Categories from './Categories.jsx'
 import PopularPosts from './PopularPosts.jsx'
 import SocialIFrame from './SocialIFrame.jsx'
+import SubscribeForm from './SubscribeForm.jsx'
+import GalleryInsta from './GalleryInsta.jsx'
+import Tags from './Tags.jsx'
 
 class Title extends React.Component {
     render() {
@@ -22,7 +25,6 @@ class Title extends React.Component {
         )
     }
 }
-
 
 class App extends React.Component {
     render() {
@@ -38,6 +40,9 @@ class App extends React.Component {
                 <Categories/>
                 <PopularPosts/>
                 <SocialIFrame/>
+                <SubscribeForm/>
+                <GalleryInsta/>
+                <Tags/>
             </div>
         )
     }
