@@ -1,0 +1,14 @@
+.iframe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .fb-page{
+    text-align: center;
+  }
+}
+.iframe_title{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 5rem;
+  font-family: $lora;
+}

@@ -1,0 +1,25 @@
+.categories{
+  height: 500px;
+  .categories_title{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: $lora;
+  }
+  .categories_links{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 3rem;
+    margin-left: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+      cursor: pointer;
+      color: $main-color;
+    }
+  }
+}

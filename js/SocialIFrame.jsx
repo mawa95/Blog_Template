@@ -12,11 +12,14 @@ export default class SocialIFrame extends React.Component{
     render(){
         return(
             <div className='container'>
-                <div className="fb-page"
-                     data-tabs="timeline,events,messages"
-                     data-href="https://www.facebook.com/CodersLabSzkolaIT/"
-                     data-width="380"
-                     data-hide-cover="false">
+                <h3 className='iframe_title'>Facebook Page</h3>
+                <div className='iframe'>
+                    <div className="fb-page"
+                         data-tabs="timeline,events,messages"
+                         data-href="https://www.facebook.com/CodersLabSzkolaIT/"
+                         data-width="600"
+                         data-hide-cover="false">
+                    </div>
                 </div>
             </div>
         )
