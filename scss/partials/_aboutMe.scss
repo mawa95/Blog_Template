@@ -1,0 +1,19 @@
+.blogger_photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 50%;
+    height: 50%;
+    background-size: contain;
+  }
+  p {
+    width: 50%;
+    text-align: center;
+  }
+}
+.about_title {
+  text-align: center;
+  padding-top: 20px;
+}

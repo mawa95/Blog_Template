@@ -1,0 +1,36 @@
+.header{
+
+  font-size: 2rem;
+  // display: flex;
+  //justify-content: space-between;
+  height: 100px;
+  background-color: $bg-color;
+  padding-top: 20px;
+}
+.header_icons, .header_search{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.header_icons{
+  width: 100%;
+
+  //justify-content: space-evenly;
+  i{
+    margin-right: 20px;
+  }
+}
+.header_search{
+  width: 100%;
+  margin-top: 20px;
+  //justify-content: center;
+  input{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+  }
+  // margin-right: 50px;
+  i{
+    font-size: 1.5rem;
+  }
+}

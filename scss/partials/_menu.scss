@@ -1,0 +1,33 @@
+.menu{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 3rem;
+  background: white;
+
+  ul{
+    margin: 0;
+    li{
+      list-style: none;
+      text-align: left;
+      font-size: 2rem;
+
+    }
+    a{
+      text-decoration: none;
+      color: black;
+    &:hover{
+      color: $main-color;
+    }
+    }
+  }
+}
+.buttonHamburger{
+  color: $main-color;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  font-size: 2.5rem;
+}
