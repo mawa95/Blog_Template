@@ -17,12 +17,14 @@ class ArticleOne extends React.Component {
                 <div className='container'>
                     <div className='title_article'><span>BLOG</span><i className="fas fa-circle"></i><span>PHOTOGRAPHY</span></div>
                     <h3>Exploring My Surroundings</h3>
-                    <img src='../images/kaboompics_Group%20of%20people%20examining%20a%20map.jpg'></img>
-                    <div className='post_description'>MARCH 27, 2018</div>
-                    <hr/>
-                    <div className='post_description'>BY LAVENDER</div>
-                    <hr/>
-                    <div className='post_description'>1 COMMENT</div>
+                    <div className='article_img'><img src='../images/kaboompics_Group%20of%20people%20examining%20a%20map.jpg'></img></div>
+                    <div className='post_descriptions'>
+                        <div className='description'>MARCH 27, 2018</div>
+                        <hr/>
+                        <div className='description name'>BY LAVENDER</div>
+                        <hr/>
+                        <div className='description'>1 COMMENT</div>
+                    </div>
                     <p><span className='first_letter'>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, aspernatur assumenda,
                         beatae consectetur cupiditate, deserunt maxime molestiae mollitia natus provident sapiente
                         totam

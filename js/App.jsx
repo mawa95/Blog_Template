@@ -29,20 +29,26 @@ class Title extends React.Component {
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <Header/>
-                <Menu/>
-                <Title/>
-                <Article/>
-                <About/>
-                <Follow/>
-                <RecentPosts/>
-                <Categories/>
-                <PopularPosts/>
-                <SocialIFrame/>
-                <SubscribeForm/>
-                <GalleryInsta/>
-                <Tags/>
+            <div className='main'>
+                <div className='content'>
+                    <Header/>
+                    <Menu/>
+                    <Title/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                </div>
+                <div className='sidebar'>
+                    <About/>
+                    <Follow/>
+                    <RecentPosts/>
+                    <Categories/>
+                    <PopularPosts/>
+                    <SocialIFrame/>
+                    <SubscribeForm/>
+                    <GalleryInsta/>
+                    <Tags/>
+                </div>
             </div>
         )
     }
