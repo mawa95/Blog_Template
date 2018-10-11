@@ -47,7 +47,6 @@ class App extends React.Component {
                     <SocialIFrame/>
                     <SubscribeForm/>
                     <GalleryInsta/>
-                    <Tags/>
                 </div>
             </div>
         )
