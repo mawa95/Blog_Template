@@ -24,8 +24,6 @@ $width-phone-landcape: 500px;
     @content;
   }
 }
-
-
 html{
   font-size: 5px;
   font-family: $karla;
@@ -74,12 +72,9 @@ nav{
   @include desktop(){
     margin-left: 10px;
   }
-
 }
-
 .list{
   @include desktop{
-
   }
 }
 .title{
@@ -103,7 +98,6 @@ nav{
     }
   }
 }
-
 img:hover{
   filter: opacity(0.9);
   cursor: pointer;
