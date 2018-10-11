@@ -1,32 +1,32 @@
-.menu{
+.menu {
   padding-top: 50px;
   text-align: center;
   font-size: 3rem;
   background: white;
   color: $main-color;
-  @include phone-landscape(){
+  @include phone-landscape() {
     padding-top: 10px;
   }
-  ul{
+  .menu.list {
     margin: 0;
-    li{
+    li {
       list-style: none;
       text-align: left;
       font-size: 4rem;
-    &:hover{
-      color: $main-color;
+      &:hover {
+        color: $main-color;
+      }
     }
-    }
-    a{
+    a {
       text-decoration: none;
       color: black;
-    &:hover{
-      color: $main-color;
-    }
+      &:hover {
+        color: $main-color;
+      }
     }
   }
 }
-.buttonHamburger{
+.buttonHamburger {
   color: $main-color;
   border: none;
   margin: 0;
@@ -34,4 +34,39 @@
   width: auto;
   font-size: 7rem;
   background-color: transparent;
+  @include desktop() {
+    display: none;
+  }
+}
+.menu.desktopMenu{
+  display: none;
+  @include desktop(){
+    display: block;
+  }
+}
+.menu.list{
+  @include desktop(){
+    margin: 0 auto;
+  }
+
+  hr{
+    @include desktop(){
+      display: none;
+    }
+  }
+}
+li{
+  @include desktop(){
+    float: left;
+    text-align: center;
+    height: 70px;
+    margin-left: 100px;
+    padding-top: 40px;
+    &:first-child{
+      margin-left: 280px;
+    }
+    a{
+      font-size: 6rem;
+    }
+  }
 }

@@ -13,6 +13,7 @@
     flex-direction: column;
     font-size: 3rem;
     margin-left: 20px;
+    margin-right: 50px;
   }
   a{
     text-decoration: none;
@@ -26,5 +27,10 @@
     width: 100%;
     color: darkgray;
     margin-right: 10px;
+  }
+}
+.categories{
+  @include desktop(){
+    height: 200px;
   }
 }

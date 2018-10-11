@@ -33,5 +33,9 @@
       height: 50%;
     }
   }
-
+}
+.blogger_photo{
+  @include desktop(){
+    flex-direction: column;
+  }
 }

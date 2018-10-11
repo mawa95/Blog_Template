@@ -15,9 +15,11 @@ class ArticleOne extends React.Component {
         return (
             <div className='article_one'>
                 <div className='container'>
-                    <div className='title_article'><span>BLOG</span><i className="fas fa-circle"></i><span>PHOTOGRAPHY</span></div>
+                    <div className='title_article'><span>BLOG</span><i
+                        className="fas fa-circle"></i><span>PHOTOGRAPHY</span></div>
                     <h3>Exploring My Surroundings</h3>
-                    <div className='article_img'><img src='../images/kaboompics_Group%20of%20people%20examining%20a%20map.jpg'></img></div>
+                    <div className='article_img'><img
+                        src='../images/kaboompics_Group%20of%20people%20examining%20a%20map.jpg'></img></div>
                     <div className='post_descriptions'>
                         <div className='description'>MARCH 27, 2018</div>
                         <hr/>
@@ -25,7 +27,8 @@ class ArticleOne extends React.Component {
                         <hr/>
                         <div className='description'>1 COMMENT</div>
                     </div>
-                    <p><span className='first_letter'>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, aspernatur assumenda,
+                    <p><span className='first_letter'>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Architecto, aspernatur assumenda,
                         beatae consectetur cupiditate, deserunt maxime molestiae mollitia natus provident sapiente
                         totam
                         voluptates. Deserunt dolores est eveniet non possimus quam?Lorem ipsum dolor sit amet,
@@ -33,9 +36,14 @@ class ArticleOne extends React.Component {
                         in
                         molestias neque numquam, perspiciatis placeat praesentium qui, reiciendis repellendus
                         reprehenderit temporibus vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <br/><br/>
                         Accusamus asperiores consequatur culpa deleniti dolore, fugiat fugit incidunt magnam minus
-                        reprehenderit. A accusamus blanditiis ex id magnam nam quam. Dolores, quisquam.</p>
-                    <button className='button_continueReading'>Continue reading</button><hr/>
+                        reprehenderit. A accusamus blanditiis ex id magnam nam quam. Dolores, Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Asperiores cupiditate deleniti dignissimos, ex expedita
+                        facilis in inventore ipsum voluptatem. Consectetur cum ipsum iste maxime nostrum odit officiis
+                        quo voluptatem voluptatibus.</p>
+                    <button className='button_continueReading'>Continue reading</button>
+                    <hr/>
                     <div className='share'>
                         <p>Share:</p>
                         <div className='share_icon'>

@@ -1,18 +1,17 @@
 import React from "react";
 
 
-export default class MobileMenu extends React.Component{
-    render(){
-        return(
-            <div>
-                <MenuIkon show={true}/>
-                {/*<MenuList show={false}/>*/}
-            </div>
-        )
-
-    }
-}
-class MenuIkon extends  React.Component{
+// export default class MobileMenu extends React.Component{
+//     render(){
+//         return(
+//             <div>
+//                 <Menu show={true}/>
+//             </div>
+//         )
+//
+//     }
+//}
+export default class Menu extends  React.Component{
     state = {
         show: this.props.show,
     };
@@ -27,9 +26,9 @@ class MenuIkon extends  React.Component{
             display: this.state.show ? 'none' : 'block'
         };
         return(
-            <div className='menu' >
+            <div className={'menu '+ this.props.class} >
                 <button onClick={this.handleClick} className='buttonHamburger'><i className="fas fa-ellipsis-v"></i><i className="fas fa-bars"></i></button>
-                <ul style={ style }>
+                <ul className='menu list' style={ style }>
                     <li><a href='#'>Home</a></li><hr/>
                     <li><a href='#'>Features</a></li><hr/>
                     <li><a href='#'>Blog</a></li><hr/>
@@ -40,6 +39,9 @@ class MenuIkon extends  React.Component{
     }
 
 }
+
+
+
 
 // class MenuList extends React.Component{
 //     state = {

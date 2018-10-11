@@ -1,7 +1,7 @@
 $main-color: #585858;
 $color-accent: #a3b5a7;
 $color-lightGray: #ddd;
-$bg-color: #f4f4f4;
+$bg-color: #fafafa;
 $karla: Karla, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
 $lora:  Lora, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
 $width-tablet: 760px;
@@ -47,23 +47,41 @@ html{
   box-shadow: 0 5px 15px rgba(0,0,0,0.10), 0 3px 3px rgba(0,0,0,0.20);
   padding-left: 5px;
   padding-right: 5px;
+  @include desktop(){
+    box-shadow: 0 3px 3px rgba(0,0,0,0.20);
+  }
 }
 .content, .main, .sidebar{
   width: 100%;
 }
-//.main{
-//  @include desktop(){
-//    display: flex;
-//  }
-//}
-//.content{
-//  @include desktop(){}
-//  width: 70%;
-//}
-//.sidebar{
-//  @include desktop(){}
-//  width: 30%;
-//}
+.main{
+  @include desktop(){
+  }
+}
+nav{
+  @include desktop(){
+    max-width: 1200px;
+  }
+}
+.content{
+  @include desktop(){
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+.sidebar{
+  @include desktop(){
+    margin-left: 10px;
+  }
+
+}
+
+.list{
+  @include desktop{
+
+  }
+}
 .title{
   width: 100%;
   h1{
@@ -78,6 +96,11 @@ html{
     @include phone-landscape(){
       font-size: 20rem;
     }
+    @include desktop(){
+      font-size: 20rem;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
   }
 }
 
@@ -85,3 +108,7 @@ img:hover{
   filter: opacity(0.9);
   cursor: pointer;
 }
+textarea:focus, input:focus{
+  outline: none;
+}
+

@@ -14,6 +14,7 @@ import PopularPosts from './PopularPosts.jsx'
 import SocialIFrame from './SocialIFrame.jsx'
 import SubscribeForm from './SubscribeForm.jsx'
 import GalleryInsta from './GalleryInsta.jsx'
+import MenuDesktop from './MenuDesktop.jsx'
 import Tags from './Tags.jsx'
 
 class Title extends React.Component {
@@ -25,28 +26,33 @@ class Title extends React.Component {
         )
     }
 }
-
 class App extends React.Component {
     render() {
         return (
             <div className='main'>
-                <div className='content'>
+                <div className='nav'>
                     <Header/>
-                    <Menu/>
+                    <Menu class='mobileMenu' show={true}/>
                     <Title/>
-                    <Article/>
-                    <Article/>
-                    <Article/>
+                    <Menu class='desktopMenu' show={false}/>
                 </div>
-                <div className='sidebar'>
-                    <About/>
-                    <Follow/>
-                    <RecentPosts/>
-                    <Categories/>
-                    <PopularPosts/>
-                    <SocialIFrame/>
-                    <SubscribeForm/>
-                    <GalleryInsta/>
+                <div className='content'>
+                    <div className='list'>
+                        <Article/>
+                        <Article/>
+                        <Article/>
+                    </div>
+                    <div className='sidebar'>
+                        <About/>
+                        <Follow/>
+                        <Categories/>
+                        <PopularPosts/>
+                        <SocialIFrame/>
+                        <SubscribeForm/>
+                        <GalleryInsta/>
+                        <RecentPosts/>
+                        <GalleryInsta/>
+                    </div>
                 </div>
             </div>
         )
