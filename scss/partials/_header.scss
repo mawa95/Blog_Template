@@ -1,9 +1,16 @@
 .header{
+  width: 100%;
   font-size: 4rem;
-  height: 200px;
+  height: 100px;
   background-color: $bg-color;
   padding-top: 20px;
-
+  @include phone-landscape(){
+    margin: 0;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
 }
 .header_icons, .header_search{
   display: flex;
@@ -12,24 +19,36 @@
   font-size: 4rem;
 }
 .header_icons{
-  width: 100%;
-  //justify-content: space-evenly;
+  width: 50%;
   i{
     margin-right: 20px;
     font-size: 4rem;
   }
 }
 .header_search{
-  width: 100%;
+  width: 80%;
   margin-top: 20px;
+  @include phone-landscape(){
+    margin: 0;
 
+  }
   input{
     border:none;
     background-image:none;
     background-color:transparent;
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 3rem;
+    @include phone-landscape(){
+      padding: 0;
+    }
   }
   // margin-right: 50px;
 
+}
+.header_search{
+  @include phone-landscape() {
+    display: flex;
+    justify-content: flex-end;
+    //align-items: flex-end;
+  }
 }

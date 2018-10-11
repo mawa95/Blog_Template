@@ -4,11 +4,42 @@ $color-lightGray: #ddd;
 $bg-color: #f4f4f4;
 $karla: Karla, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
 $lora:  Lora, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+$width-tablet: 760px;
+$width-desktop: 1200px;
+$width-max: 1200px;
+$width-phone-landcape: 500px;
+
+@mixin tablet() {
+  @media screen and (min-width: #{$width-tablet}) {
+    @content;
+  }
+}
+@mixin phone-landscape() {
+  @media screen and (min-width: #{$width-phone-landcape}) {
+    @content;
+  }
+}
+@mixin desktop() {
+  @media screen and (min-width: #{$width-desktop}) {
+    @content;
+  }
+}
+
+
 html{
-  font-size: 10px;
+  font-size: 5px;
   font-family: $karla;
   color: $main-color;
   background: $bg-color;
+  @include phone-landscape(){
+    font-size: 6px;
+  }
+  @include tablet(){
+    font-size: 5px;
+  }
+  @include desktop(){
+    font-size: 4px;
+  }
 }
 .container{
   margin: 0 auto;
@@ -19,14 +50,23 @@ html{
 }
 
 .title{
+  width: 100%;
   h1{
     padding-top: 150px;
     padding-bottom: 150px;
     background: white;
     margin: 0;
-    font-size: 20rem;
+    font-size: 15rem;
     text-align: center;
     font-family: Dancing Script, cursive;
     font-weight: bold;
+    @include phone-landscape(){
+      font-size: 20rem;
+    }
   }
+}
+
+img:hover{
+  filter: opacity(0.9);
+  cursor: pointer;
 }

@@ -17,7 +17,7 @@ export default class SocialIFrame extends React.Component{
                     <div className="fb-page"
                          data-tabs="timeline,events,messages"
                          data-href="https://www.facebook.com/CodersLabSzkolaIT/"
-                         data-width="600"
+                         data-width="200"
                          data-hide-cover="false">
                     </div>
                 </div>

@@ -4,6 +4,9 @@
   font-size: 3rem;
   background: white;
   color: $main-color;
+  @include phone-landscape(){
+    padding-top: 10px;
+  }
   ul{
     margin: 0;
     li{
@@ -29,7 +32,6 @@
   margin: 0;
   padding-top: 30px;
   width: auto;
-  overflow: visible;
-  background: transparent;
   font-size: 7rem;
+  background-color: transparent;
 }

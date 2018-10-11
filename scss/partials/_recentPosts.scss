@@ -19,7 +19,6 @@
     align-items: flex-start;
     flex-direction: column;
     margin-top: 50px;
-
     h3{
       font-size: 4rem;
       font-family: $lora;
@@ -40,15 +39,15 @@
     background-size: contain;
   }
 }
-.recentPost:before{
-  content: "";
-  position: absolute;
-  background: #eee;
-  height: 2px;
-  width: 20px;
-  bottom: 0;
-  right: 50%;
-  transform: translateX(50%);
-  margin-top: -10px;
-  top: 45px;
-}
+//.recentPost:before{
+//  content: "";
+//  position: absolute;
+//  background: #eee;
+//  height: 2px;
+//  width: 20px;
+//  bottom: 0;
+//  right: 50%;
+//  transform: translateX(50%);
+//  margin-top: -10px;
+//  top: 45px;
+//}

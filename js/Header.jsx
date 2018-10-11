@@ -14,7 +14,7 @@ export default class Header extends React.Component{
                         <i className="fab fa-youtube"></i>
                     </div>
                     <div className='header_search'>
-                        <form>
+                        <form className='header_form'>
                             <input type="text" placeholder="SEARCH AND HIT ENTER..."></input>
                             <i className="fas fa-search"></i>
                         </form>
