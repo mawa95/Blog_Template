@@ -1,3 +1,7 @@
+.aboute_me{
+  padding-bottom: 30px;
+}
+
 .blogger_photo {
   display: flex;
   justify-content: center;
@@ -19,4 +23,15 @@
   font-family: Lora, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;;
   text-align: center;
   padding-top: 20px;
+}
+
+.blogger_photo{
+  @include tablet(){
+    flex-direction: row;
+    img{
+      width: 50%;
+      height: 50%;
+    }
+  }
+
 }
