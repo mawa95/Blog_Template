@@ -13,8 +13,11 @@
     justify-content: space-around;
     align-items: center;
     font-size: 4rem;
+    @include desktop(){
+      width: 60%;
+    }
     i{
-      //margin-left: 50px;
+
       &:hover{
         cursor: pointer;
         color: $color-accent;
