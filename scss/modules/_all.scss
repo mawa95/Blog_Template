@@ -106,3 +106,12 @@ textarea:focus, input:focus{
   outline: none;
 }
 
+i:hover{
+  cursor: pointer;
+  color: $color-lightGray;
+}
+a{
+  color: $main-color;
+}
+
+

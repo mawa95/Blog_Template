@@ -14,6 +14,7 @@ import PopularPosts from './PopularPosts.jsx'
 import SocialIFrame from './SocialIFrame.jsx'
 import SubscribeForm from './SubscribeForm.jsx'
 import GalleryInsta from './GalleryInsta.jsx'
+import Footer from './Footer.jsx'
 import MenuDesktop from './MenuDesktop.jsx'
 import Tags from './Tags.jsx'
 
@@ -51,9 +52,10 @@ class App extends React.Component {
                         <SubscribeForm/>
                         <GalleryInsta/>
                         <RecentPosts/>
-                        <GalleryInsta/>
+                        <SubscribeForm/>
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }
