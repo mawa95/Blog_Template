@@ -1,4 +1,5 @@
 import React from "react";
+import IkonSocial from './IkonSocial.jsx'
 export default class Follow extends React.Component{
      render(){
          return (
@@ -12,7 +13,6 @@ export default class Follow extends React.Component{
                        <a href='https://www.instagram.com/'><i className="fab fa-instagram"></i></a>
                        <a href='https://www.youtube.com/'><i className="fab fa-youtube"></i></a>
                    </div>
-
                </div>
              </div>
          )

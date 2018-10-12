@@ -52,7 +52,7 @@ class App extends React.Component {
                         <SubscribeForm/>
                         <GalleryInsta/>
                         <RecentPosts/>
-                        <SubscribeForm/>
+                        <Categories/>
                     </div>
                 </div>
                 <Footer/>
