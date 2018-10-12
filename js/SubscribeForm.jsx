@@ -31,7 +31,6 @@ export default class SubscribeForm extends React.Component{
             })
          } else {
             this.setState({
-                //error: 'thanks!',
                 show: false
             })
         }
