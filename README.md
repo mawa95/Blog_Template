@@ -19,5 +19,5 @@ To run this project, install it locally using npm:
 $ npm install
 $ npm start
 ```
-##Inspiration
+## Inspiration
 http://justfreethemes.com/demo/?theme=Lavander%20Lite
