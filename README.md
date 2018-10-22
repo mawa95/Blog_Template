@@ -1,5 +1,6 @@
 # Blog - template
 Simple responsive blog template created with React.js, Sass
+![layout](./images/screencapture-localhost-8080-2018-10-22-10_51_14.png)
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
