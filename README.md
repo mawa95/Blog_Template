@@ -1,1 +1,2 @@
-# Blog_Template
+# Blog - template
+Blog layout using React
